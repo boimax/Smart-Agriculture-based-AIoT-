@@ -1,5 +1,7 @@
 # AIoT Smart Agriculture System
 
+This project is a module in my curriculum. It is built by me and 4 other members.
+
 This project utilizes the Artificial Intelligence of Things (AIoT), combining AI technologies with IoT infrastructure to create more efficient IoT operations, improve human-machine interactions, and enhance data management and analytics. The focus of this project is on applying AIoT technology to smart agriculture scenarios.
 
 Environmental sensory data is periodically recorded and uploaded to an IoT server for remote monitoring. In the context of agriculture, the temperature and humidity of air and soil conditions (temperature, humidity, and electrical conductivity) are required to monitor. Actuators, such as pumps, fans, or LEDs, can be controlled automatically or manually based on user configurations. An IoT dashboard is built, either as a web or mobile application, to provide a friendly user interface.
