@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/plantHealthFragment">
+
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="com.project.iotdashboard.SensorFragment"
+        android:label="SensorFragment" >
+        <action
+            android:id="@+id/action_sensorFragment_to_plantHealthFragment"
+            app:destination="@id/plantHealthFragment" />
+        <action
+            android:id="@+id/action_sensorFragment_self"
+            app:destination="@id/sensorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantHealthFragment"
+        android:name="com.project.iotdashboard.PlantHealthFragment"
+        android:label="fragment_plant_health"
+        tools:layout="@layout/fragment_plant_health" >
+        <action
+            android:id="@+id/action_plantHealthFragment_to_sensorFragment"
+            app:destination="@id/sensorFragment" />
+    </fragment>
+</navigation>

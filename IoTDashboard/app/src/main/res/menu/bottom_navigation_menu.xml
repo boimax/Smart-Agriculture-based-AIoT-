@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_sensor"
+        android:icon="@drawable/ic_sensor"
+        android:title="@string/sensor" />
+    <item
+        android:id="@+id/menu_plant_health"
+        android:icon="@drawable/ic_grass"
+        android:title="@string/plant" />
+</menu>
