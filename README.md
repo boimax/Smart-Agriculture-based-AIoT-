@@ -8,4 +8,4 @@ Environmental sensory data is periodically recorded and uploaded to an IoT serve
 
 The most interesting aspect of this project is the implementation of a simple AI system. Data collected from a webcam camera is used to train the AI core, enabling the system to recognize unusual plant pictures and provide alarms to end-users. The AI core acts like an advanced sensor in a smart agriculture system.
 
-Python (version 3.8.5 recommended) is the primary programming language used in this project. The Raspberry PI platform is suggested.
+Java and Python are two primary programming languages used in this project. The Raspberry PI platform is suggested.
